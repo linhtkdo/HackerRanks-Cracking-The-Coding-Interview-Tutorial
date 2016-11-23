@@ -20,7 +20,7 @@ public class Solution {
         stack.push(c);
       else 
         if (stack.isEmpty() || !matches(stack.pop(), c)) return false;
-      return stack.isEmpty();
     }
+      return stack.isEmpty();
   }
 }
