@@ -20,5 +20,5 @@ public static int getBiggestRegion(int[][] matrix) {
                     maxRegion = Math.max(size, maxRegion);
                 }
         return maxRegion;
- }
+}
     
