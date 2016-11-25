@@ -34,7 +34,7 @@ public static int countPathsI(int steps) {
   if (steps <= 1) return 1;
   int[] paths = {1, 1, 2};
   for (int i=3; i<=steps; i++) {
-    int count = paths[2] + path[1] + paths[0];
+    int count = paths[2] + paths[1] + paths[0];
     paths[0] = paths[1];
     paths[1] = paths[2];
     paths[2] = count;
