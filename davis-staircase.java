@@ -9,7 +9,7 @@ public static int countPathsMemo(int steps) {
   return countPathsMemo(steps, new int[steps+1]);
 }
 
-public static int countPathsMemo(int steps) {
+public static int countPathsMemo(int steps, int[] memo) {
   if (steps < 0) return 0;
   if (steps == 0) return 1;
   if (memo[n] == 0) 
